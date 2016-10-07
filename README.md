@@ -20,7 +20,7 @@ Column 4 is the value of choice_description
 Each row represents the instances of that type of entity
 
 2.
-The command is `cut -f1 chipotle.tsv | sed `1 d`| uniq | wc -l`
+The command is `cut -f1 chipotle.tsv | sed '1 d' | uniq | wc -l`
 
 The number of orders is 1834
 
